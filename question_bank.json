@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "spi-percent",
+      "exam": "SPI非言語",
+      "category": "割合",
+      "kind": "percent",
+      "prompt": "ある商品{a}円を{b}％引きで買いました。支払額はいくらですか。",
+      "unit": "円",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-profit",
+      "exam": "SPI非言語",
+      "category": "損益算",
+      "kind": "profit",
+      "prompt": "原価{a}円の商品に、原価の{b}％の利益を見込んで定価をつけます。定価はいくらですか。",
+      "unit": "円",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-speed",
+      "exam": "SPI非言語",
+      "category": "速さ",
+      "kind": "speed",
+      "prompt": "時速{a}kmで{b}時間進みました。進んだ距離は何kmですか。",
+      "unit": "km",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-work",
+      "exam": "SPI非言語",
+      "category": "仕事算",
+      "kind": "work",
+      "prompt": "ある仕事をAさんは{a}日、Bさんは{b}日で終えます。2人が同じペースで一緒に働くと何日で終わりますか。",
+      "unit": "日",
+      "seconds": 90,
+      "enabled": true
+    },
+    {
+      "id": "spi-ratio",
+      "exam": "SPI非言語",
+      "category": "比",
+      "kind": "ratio",
+      "prompt": "赤と青の玉の数の比は{a}：{b}です。全部で{c}個あります。赤の玉は何個ですか。",
+      "unit": "個",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-set",
+      "exam": "SPI非言語",
+      "category": "集合",
+      "kind": "set",
+      "prompt": "{c}人に調査しました。英語が好きな人は{a}人、数学が好きな人は{b}人、両方好きな人は{d}人です。どちらも好きではない人は何人ですか。",
+      "unit": "人",
+      "seconds": 90,
+      "enabled": true
+    },
+    {
+      "id": "spi-prob",
+      "exam": "SPI非言語",
+      "category": "確率",
+      "kind": "prob",
+      "prompt": "袋に赤い玉が{a}個、青い玉が{b}個あります。1個を無作為に取り出すとき、赤である確率を求めてください。",
+      "unit": "",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-comb",
+      "exam": "SPI非言語",
+      "category": "組合せ",
+      "kind": "comb",
+      "prompt": "{a}人から係を2人選びます。選び方は何通りですか。",
+      "unit": "通り",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-perm",
+      "exam": "SPI非言語",
+      "category": "順列",
+      "kind": "perm",
+      "prompt": "{a}人から、委員長と副委員長を1人ずつ選びます。兼任できないとき、選び方は何通りですか。",
+      "unit": "通り",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-average",
+      "exam": "SPI非言語",
+      "category": "平均",
+      "kind": "average",
+      "prompt": "4回の試験の得点は{a}点、{b}点、{c}点、{d}点です。平均点はいくらですか。",
+      "unit": "点",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "spi-age",
+      "exam": "SPI非言語",
+      "category": "年齢算",
+      "kind": "age",
+      "prompt": "現在、親は{a}歳、子は{b}歳です。親の年齢が子の年齢の2倍になるのは何年後ですか。",
+      "unit": "年後",
+      "seconds": 90,
+      "enabled": true
+    },
+    {
+      "id": "spi-order",
+      "exam": "SPI非言語",
+      "category": "推論・順位",
+      "kind": "order",
+      "prompt": "A、B、C、Dの4人が走りました。同着はありません。AはBより速く、BはCより速く、DはAより速くゴールしました。2位は誰ですか。",
+      "unit": "",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "cab-calc",
+      "exam": "CAB",
+      "category": "四則逆算",
+      "kind": "inverse",
+      "prompt": "□ × {a} ＋ {b} ＝ {c}\n□に入る数を求めてください。",
+      "unit": "",
+      "seconds": 40,
+      "enabled": true
+    },
+    {
+      "id": "cab-law",
+      "exam": "CAB",
+      "category": "法則性",
+      "kind": "sequence",
+      "prompt": "図の並びは、1つずつ同じ数だけ増えます。次の数を選んでください。",
+      "unit": "",
+      "seconds": 45,
+      "enabled": true
+    },
+    {
+      "id": "cab-rotate",
+      "exam": "CAB",
+      "category": "図形の法則性",
+      "kind": "rotate",
+      "prompt": "矢印は毎回、時計回りに90度回転します。次の矢印を選んでください。",
+      "unit": "",
+      "seconds": 40,
+      "enabled": true
+    },
+    {
+      "id": "cab-command",
+      "exam": "CAB",
+      "category": "命令表",
+      "kind": "command",
+      "prompt": "命令表を上から順に実行してください。最終的な並びはどれですか。",
+      "unit": "",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "cab-code",
+      "exam": "CAB",
+      "category": "暗号",
+      "kind": "code",
+      "prompt": "暗号では各図形を対応表の数字に置き換えます。下の図形列を数字に直してください。",
+      "unit": "",
+      "seconds": 45,
+      "enabled": true
+    },
+    {
+      "id": "gab-total",
+      "exam": "GAB",
+      "category": "計数・構成比",
+      "kind": "tabletotal",
+      "prompt": "表の今年の売上合計に占めるA店の割合は何％ですか。小数第1位を四捨五入し、整数で答えてください。",
+      "unit": "％",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "gab-growth",
+      "exam": "GAB",
+      "category": "計数・増加率",
+      "kind": "tablegrowth",
+      "prompt": "表のA店の売上は、前年と比べて何％増加しましたか。",
+      "unit": "％",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "gab-read",
+      "exam": "GAB",
+      "category": "言語・論理読解",
+      "kind": "reading",
+      "prompt": "本文：この会社では研修を修了した社員だけが機械を操作できる。田中さんは研修を修了した。\n設問：田中さんは必ず機械を操作している。\n本文だけから判断してください。",
+      "unit": "",
+      "seconds": 60,
+      "enabled": true
+    },
+    {
+      "id": "lang-relation",
+      "exam": "言語",
+      "category": "二語の関係",
+      "kind": "fixed",
+      "prompt": "「医師：病院」と同じ関係にあるものを選んでください。",
+      "unit": "",
+      "seconds": 45,
+      "enabled": true,
+      "options": [
+        "教師：学校",
+        "本：読書",
+        "患者：薬",
+        "電車：切符"
+      ],
+      "answer": 0,
+      "explanation": "医師が病院で働くように、教師は学校で働きます。「職業と職場」の関係です。"
+    },
+    {
+      "id": "lang-word",
+      "exam": "言語",
+      "category": "語句の意味",
+      "kind": "fixed",
+      "prompt": "「試行錯誤」の意味として最も適切なものを選んでください。",
+      "unit": "",
+      "seconds": 45,
+      "enabled": true,
+      "options": [
+        "失敗を重ねながら方法を探すこと",
+        "最初から完全に成功すること",
+        "同じ誤りを隠すこと",
+        "他人に仕事を任せること"
+      ],
+      "answer": 0,
+      "explanation": "試行は実際に試すこと、錯誤は間違えることです。試して結果を確かめながら改善します。"
+    },
+    {
+      "id": "lang-order",
+      "exam": "言語",
+      "category": "文の並べ替え",
+      "kind": "fixed",
+      "prompt": "自然な文になる並びを選んでください。\nア：確認する　イ：前に　ウ：提出する　エ：内容を",
+      "unit": "",
+      "seconds": 60,
+      "enabled": true,
+      "options": [
+        "ウ→イ→エ→ア",
+        "エ→ウ→ア→イ",
+        "ア→イ→ウ→エ",
+        "イ→エ→ア→ウ"
+      ],
+      "answer": 0,
+      "explanation": "「提出する前に内容を確認する」となります。「〜する前に」が時間の順序を表します。"
+    }
+  ]
+}
